@@ -3,7 +3,17 @@ name = "rs-xsheet2jsonl"
 version = "0.1.0"
 edition = "2024"
 
+description = "Converts the rows of the sheet to json objects."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-xsheet2jsonl"
+homepage = "https://github.com/takanoriyanagitani/rs-xsheet2jsonl"
+documentation = "https://docs.rs/rs-xsheet2jsonl/latest"
+keywords = ["xlsx", "jsonl", "json", "converter"]
+
 exclude = [
+    "rs-xsheet2jsonl.wasm",
+    "opt.wasm",
+    "sample.d/input.xlsx",
 ]
 
 [lints.rust]
